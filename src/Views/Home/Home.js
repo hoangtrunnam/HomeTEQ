@@ -45,7 +45,7 @@ const Home = () => {
       </View>
       <View style={styles.containerChildren}>
         <Text style={{ fontSize: 32, fontWeight: '700', color: '#14142B', marginTop: 15 }}>Good Morning!</Text>
-        <Text style={{ fontSize: 14, fontWeight: '600', color: '#6E7191', marginTop: 15 }}>Announcement</Text>
+        <Text style={{ fontSize: 14, fontWeight: '400', color: '#6E7191', marginTop: 15 }}>Announcement</Text>
         <View style={styles.AnnouncementListContainer} >
           <FlatList
             data={[1, 2, 3, 4]}
