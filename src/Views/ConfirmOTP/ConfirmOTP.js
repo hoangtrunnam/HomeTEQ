@@ -37,7 +37,7 @@ const ConfirmOTP = ({ navigation, route }) => {
     setInternalValue(value)
   }
 
-  const otpFromBackend = 555555
+  const otpFromBackend = 5555551
 
   if (internalvalue == otpFromBackend) {
     // navigation.navigate('BottomTab')
