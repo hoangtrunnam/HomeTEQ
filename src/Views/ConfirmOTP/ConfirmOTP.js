@@ -37,17 +37,17 @@ const ConfirmOTP = ({ navigation, route }) => {
     setInternalValue(value)
   }
 
-  const otpFromBackend = 555555
+  const otpFromBackend = 5555551
 
   if (internalvalue == otpFromBackend) {
-    // navigation.navigate('BottomTab')
+    navigation.navigate('BottomTab')
 
   }
 
   if (lengthInput == internalvalue.length) {
     // console.log('navigate to home screen');
     dispatch(AuthenOtp(otpFromBackend))
-    console.log('otp confirm ',otpFromBackend);
+    console.log('otp confirmmmmmmmmmm ',otpFromBackend);
   }
 
 
